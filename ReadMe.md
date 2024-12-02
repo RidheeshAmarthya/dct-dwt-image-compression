@@ -17,7 +17,7 @@ The program takes two command-line arguments:
 2. Number of coefficients for decoding (n)
 
 ```bash
-MyExe Image.rgb <n>
+image Image.rgb <n>
 ```
 
 Where `<n>` can be:
@@ -28,11 +28,11 @@ Where `<n>` can be:
 ## Examples
 
 ```bash
-MyExe Image.rgb 262144  # Full quality (no loss)
-MyExe Image.rgb 65536   # Half of the coefficients
-MyExe Image.rgb 16384   # 1/16th of the coefficients
-MyExe Image.rgb -1      # Progressive encoding analysis
-MyExe Image.rgb -2      # Equivalent quality comparison
+image Image.rgb 262144  # Full quality (no loss)
+image Image.rgb 65536   # Half of the coefficients
+image Image.rgb 16384   # 1/16th of the coefficients
+image Image.rgb -1      # Progressive encoding analysis
+image Image.rgb -2      # Equivalent quality comparison
 ```
 
 ## Implementation Details
