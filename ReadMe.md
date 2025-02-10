@@ -3,7 +3,7 @@
 This project implements and compares image compression techniques using Discrete Cosine Transform (DCT) and Discrete Wavelet Transform (DWT). It provides a visual comparison of the two methods by displaying the compressed images side by side.
 
 ## Output (-1)
-![Segmented Image 1](https://imgur.com/CEcn5KG.gif)
+<img src="https://github.com/RidheeshAmarthya/RidheeshAmarthya/blob/main/wallpaper.gif">
 
 ## Features
 
